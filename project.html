@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AIM@NUIST</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/Blue.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>	
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">AIM</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="team.html">Team</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="publications.html">Publications</a></li>
+							<li><a href="opennings.html">Opennings</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Projects</h2>
+							<!PDF versions of papers are protected by copyright holders but could be provided by reasonable requests>
+						</header>
+
+						<!-- Text -->
+							<section>
+                                                                                                                                <header>
+                                                                                                                                <img src="images/Computerized spermatogenesis staging (CSS).jpg" alt="" width=600px class="image">
+								<h3>Computerized spermatogenesis staging (CSS) of mouse testis sections via quantitative histomorphological analysis</h3>
+								<ul>
+								  <li>Jun Xu，Haoda Lu，Haixin Li，Chaoyang Yan，Xiangxue Wang， Min Zang， Dirk G. deRooij， AnantMadabhushi， Eugene YujunXu</li>
+								  <li>Abstract： Spermatogenesis in mammals is a cyclic process of spermatogenic cell development in the seminiferous epithelium that can be subdivided into 12 subsequent stages. Histological staging analysis of testis sections, specifically of seminiferous tubule cross-sections, is the only effective method to evaluate the quality of the spermatogenic process and to determine developmental defects leading to infertility. Such staging analysis, however, is tedious and time-consuming, and it may take a long time to become proficient. We now have developed a Computerized Staging system of Spermatogenesis (CSS) for mouse testis sections through learning of an expert with decades of experience in mouse testis staging. The development of the CSS system comprised three major parts: 1) Developing computational image analysis models for mouse testis sections; 2) Automated classification of each seminiferous tubule cross-section into three stage groups: Early Stages (ES: stages I-V), Middle Stages (MS: stages VI-VIII), and Late Stages (LS: stages IV-XII); 3) Automated classification of MS into distinct stages VI, VII-mVIII, and late VIII based on newly developed histomorphological features. A cohort of 40 H&E stained normal mouse testis sections was built according to three modules where 28 cross-sections were leveraged for developing tubule region segmentation, spermatogenic cells types and multi-concentric-layers segmentation models. The rest of 12 testis cross-sections, approximately 2314 tubules whose stages were manually annotated by two expert testis histologists, served as the basis for developing the CSS system. The CSS system’s accuracy of mean and standard deviation (MSD) in identifying ES, MS, and LS were 0.93 ± 0.03, 0.94 ± 0.11, and 0.89 ± 0.05 and 0.85 ± 0.12, 0.88 ± 0.07, and 0.96 ± 0.04 for one with 5 years of experience, respectively. The CSS system’s accuracy of MSD in identifying stages VI, VII-mVIII, and late VIII are 0.74 ± 0.03, 0.85 ± 0.04, and 0.78 ± 0.06 and 0.34 ± 0.18, 0.78 ± 0.16, and 0.44 ± 0.25 for one with 5 years of experience, respectively. In terms of time it takes to collect these data, it takes on average 3 hours for a histologist and 1.87 hours for the CSS system to finish evaluating an entire testis section (computed with a PC (I7-6800k 4.0 GHzwith 32GB of RAM & 256G SSD) and a Titan 1080Ti GPU). Therefore, the CSS system is more accurate and faster compared to a human histologist in staging, and further optimization and development will not only lead to a complete staging of all 12 stages of mouse spermatogenesis but also could aid in the future diagnosis of human infertility. Moreover, the top-ranking histomorphological features identified by the CSS classifier are consistent with the primary features used by histologists in discriminating stages VI, VII-mVIII, and late VIII.</li>
+								</ul>
+								<hr />
+
+                                                                                                                                <img src="images/基于全景病理图像细胞密度和异型特征的胶质瘤自动分级.jpg" alt="" width=600px class="image">
+								<h3>基于全景病理图像细胞密度和异型特征的胶质瘤自动分级</h3>
+								<ul>
+								  <li>韩继能，谢嘉伟，顾松，闫朝阳，李建瑞，张志强，徐军</li>
+								  <li>摘要：胶质瘤是最常见的恶性脑肿瘤，它的世界卫生组织（WHO）高低级别分类是制定治疗方案和预后的重要参考指标。临床中，脑胶质瘤的高低分级诊断通常由病理医生阅读全景病理图像（WSI）来完成，该任务繁琐且对医生经验要求高。根据2016年第4版《中枢神经系统肿瘤WHO分类》标准，细胞的富集程度、核异型、坏死等现象与胶质瘤分级密切相关，受该标准启发，本文定量分析脑全景病理图像中细胞密度和异型特征，对胶质瘤进行高低级别自动分级。首先分析全局细胞密度定位感兴趣区域（ROI），提取全扫描图像的全局密度特征，然后对感兴趣区域提取局部密度特征和异型特征，最后利用特征选择并构建平衡权重的支持向量机（SVM）分类器，5折交叉验证的受试者工作特性曲线下的面积（AUC）为0.92 ± 0.01，准确率（ACC）为0.82 ± 0.01。实验结果表明，本文提出的感兴趣区域定位方法可有效快速地定位，构建的细胞密度和异型特征能够实现胶质瘤的自动分级，为临床诊断提供可靠性依据。</li>
+								</ul>
+								<hr />
+
+								<header>
+                                                                                                                                <img src="images/Blue.png" alt="" width=200px class="image">
+								<h3>Project-2 Name</h3>
+								<ul>
+								  <li>Article Title</li>
+								  <li>Authers</li>
+								  <li>Abstract</li>
+								</ul>
+								<hr />
+									<h3>Heading with a Subtitle</h3>
+									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+								<header>
+									<h4>Heading with a Subtitle</h4>
+									<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+								
+
+								<h4>Blockquote</h4>
+								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+
+								<h4>Preformatted</h4>
+								<pre><code>i = 0;
+
+	while (!deck.isInOrder()) {
+	    print 'Iteration ' + i;
+	    deck.shuffle();
+	    i++;
+	}
+
+	print 'It took ' + i + ' iterations to sort the deck.';
+	</code></pre>
+							</section>
+
+						<!-- Lists -->
+							<section>
+								<h3>Lists</h3>
+								<div class="row">
+									<div class="col-6 col-12-xsmall">
+
+										<h4>Unordered</h4>
+										<ul>
+											<li>Dolor pulvinar etiam magna etiam.</li>
+											<li>Sagittis adipiscing lorem eleifend.</li>
+											<li>Felis enim feugiat dolore viverra.</li>
+										</ul>
+
+										<h4>Alternate</h4>
+										<ul class="alt">
+											<li>Dolor pulvinar etiam magna etiam.</li>
+											<li>Sagittis adipiscing lorem eleifend.</li>
+											<li>Felis enim feugiat dolore viverra.</li>
+											<li>Lobortis adipiscing condimentum lorem.</li>
+											<li>Integer eleifend erat sed accumsan.</li>
+										</ul>
+
+									</div>
+									<div class="col-6 col-12-xsmall">
+
+										<h4>Ordered</h4>
+										<ol>
+											<li>Dolor pulvinar etiam magna etiam.</li>
+											<li>Etiam vel felis at lorem sed viverra.</li>
+											<li>Felis enim feugiat dolore viverra.</li>
+											<li>Dolor pulvinar etiam magna etiam.</li>
+											<li>Etiam vel felis at lorem sed viverra.</li>
+											<li>Felis enim feugiat dolore viverra.</li>
+										</ol>
+
+										<h4>Icons</h4>
+										<ul class="icons">
+											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+										</ul>
+										<ul class="icons">
+											<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon brands alt fa-github"><span class="label">Github</span></a></li>
+											<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon brands alt fa-tumblr"><span class="label">Tumblr</span></a></li>
+										</ul>
+
+									</div>
+								</div>
+
+								<h4>Actions</h4>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions small">
+									<li><a href="#" class="button primary small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+								<div class="row">
+									<div class="col-3 col-6-medium col-12-xsmall">
+										<ul class="actions stacked">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-xsmall">
+										<ul class="actions stacked">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-xsmall">
+										<ul class="actions stacked">
+											<li><a href="#" class="button primary fit">Default</a></li>
+											<li><a href="#" class="button fit">Default</a></li>
+										</ul>
+									</div>
+									<div class="col-3 col-6-medium col-12-xsmall">
+										<ul class="actions stacked">
+											<li><a href="#" class="button primary small fit">Small</a></li>
+											<li><a href="#" class="button small fit">Small</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+
+						<!-- Table -->
+							<section>
+								<h3>Table</h3>
+								<h4>Default</h4>
+								<div class="table-wrapper">
+									<table>
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Description</th>
+												<th>Price</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Item 1</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item 2</td>
+												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item 3</td>
+												<td> Morbi faucibus arcu accumsan lorem.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item 4</td>
+												<td>Vitae integer tempus condimentum.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item 5</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+												<td>100.00</td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+								<h4>Alternate</h4>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Description</th>
+												<th>Price</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Item 1</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item 2</td>
+												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item 3</td>
+												<td> Morbi faucibus arcu accumsan lorem.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item 4</td>
+												<td>Vitae integer tempus condimentum.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item 5</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+												<td>100.00</td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+							</section>
+
+						<!-- Buttons -->
+							<section>
+								<h3>Buttons</h3>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Primary</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="#" class="button primary large">Large</a></li>
+									<li><a href="#" class="button">Default</a></li>
+									<li><a href="#" class="button small">Default</a></li>
+								</ul>
+								<div class="row">
+									<div class="col-6 col-12-xsmall">
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+										</ul>
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+										</ul>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+									<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+								</ul>
+								<ul class="actions">
+									<li><span class="button primary disabled">Primary</span></li>
+									<li><span class="button disabled">Default</span></li>
+								</ul>
+							</section>
+
+						<!-- Form -->
+							<section>
+								<h3>Form</h3>
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" value="" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<select name="category" id="category">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-low" name="priority" checked>
+											<label for="priority-low">Low Priority</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-normal" name="priority">
+											<label for="priority-normal">Normal Priority</label>
+										</div>
+										<div class="col-4 col-12-medium">
+											<input type="radio" id="priority-high" name="priority">
+											<label for="priority-high">High Priority</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="copy" name="copy">
+											<label for="copy">Email me a copy of this message</label>
+										</div>
+										<div class="col-6 col-12-medium">
+											<input type="checkbox" id="human" name="human" checked>
+											<label for="human">I am a human and not a robot</label>
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+
+						<!-- Image -->
+							<section>
+								<h3>Image</h3>
+								<h4>Fit</h4>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-12"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									</div>
+								</div>
+
+								<h4>Left &amp; Right</h4>
+								<p><span class="image left"><img src="images/pic08.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Cras aliquet accumsan curae accumsan arcu amet egestas placerat odio morbi mi adipiscing col morbi felis faucibus in gravida sollicitudin interdum commodo. Ante aliquam vis iaculis accumsan lorem ipsum dolor sit amet nullam. Cras aliquet accumsan curae accumsan arcu amet egestas placerat odio morbi mi adipiscing col morbi felis faucibus in gravida sollicitudin interdum commodo. Ante aliquam vis iaculis accumsan lorem ipsum dolor sit amet nullam.</p>
+								<p><span class="image right"><img src="images/pic08.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Cras aliquet accumsan curae accumsan arcu amet egestas placerat odio morbi mi adipiscing col morbi felis faucibus in gravida sollicitudin interdum commodo. Ante aliquam vis iaculis accumsan lorem ipsum dolor sit amet nullam. Cras aliquet accumsan curae accumsan arcu amet egestas placerat odio morbi mi adipiscing col morbi felis faucibus in gravida sollicitudin interdum commodo. Ante aliquam vis iaculis accumsan lorem ipsum dolor sit amet nullam.</p>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
