@@ -2518,11 +2518,11 @@ input, select, textarea {
 		float:right;
 	}
 	
-	.image-center {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	
 		.pic {
 		    margin:+5% 0 0;
